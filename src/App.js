@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import yodit from './yodit.jpg'
 import './App.css';
 import Button from '@material-ui/core/Button'
 import DenseAppBar from './DenseAppBar'
@@ -6,15 +7,16 @@ import DenseAppBar from './DenseAppBar'
 function App() {
   return ( 
     <div className="App">
-      <header className="App-header">
-        <DenseAppBar/>
-        <Button variant="contained" color="primary">
+      <DenseAppBar/>
+      {/* <header className="App-header"> */}
+        {/* <Button variant="contained" color="teritiary" align="left">
           Hello World
-        </Button>
+        </Button> */}
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <img src={yodit} alt="logo" />
 
 
-      </header>
+      {/* </header> */}
     </div>
   );
 }
