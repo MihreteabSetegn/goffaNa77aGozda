@@ -59,7 +59,7 @@ const handleClose = () => {
         <MenuItem onClick={handleClose}>My account</MenuItem>
         <MenuItem onClick={handleClose}>Logout</MenuItem>
       </Menu>
-          <Button color="inherit">Login</Button>
+          <Button color="inherit">Login to Goffa Garra</Button>
         </Toolbar>
       </AppBar>
     </div>
