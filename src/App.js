@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         Mihreteab Goffa Gozda
+         Goffa Gara
         </a>
       </header>
     </div>
