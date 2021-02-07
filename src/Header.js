@@ -70,7 +70,7 @@ export default function Header() {
     document.title = "Gofagara.org"
  }, []);
 
-  const { header, logo, menuButton, toolbar, imgStyle } = useStyles();
+  const { header, menuButton, toolbar, imgStyle } = useStyles();
 
   const [state, setState] = useState({
     mobileView: false,
