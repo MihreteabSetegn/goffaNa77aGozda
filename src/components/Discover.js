@@ -23,7 +23,7 @@ import {Link} from "@material-ui/core";
         <Data/>
       </div>
       <div style={{marginBottom: "10px", marginTop: "10px"}}>
-            <Link href="https://en.wikipedia.org/wiki/Gamu-Gofa"  target="_blank" style={{color: "white", fontFamily: "cursive"}}>Visit Gamo Goffa Area Wiki Page to learn more...</Link>
+            <Link href="https://en.wikipedia.org/wiki/Gamu-Gofa"  target="_blank" style={{color: "white", fontFamily: "cursive"}}>Visit Gamo Gofa Area Wiki Page to learn more...</Link>
       </div>
   </div>
   );
