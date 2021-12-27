@@ -32,8 +32,9 @@ export default function Footer(props) {
   const handleUrl = (name) => {
     
     if(name === "Facebook") return "https://www.facebook.com/gofa.gara";
-    if(name === "Twitter") return "http://twitter.com/gofagara";
-    else return "http://instagram.com/gofagara/"
+    else if(name === "Twitter") return "http://twitter.com/gofagara";
+    else if(name === 'YouTube') return "https://www.youtube.com/channel/UC6KGBPA-tjbh34JjNeEGQDw";
+    else return "http://instagram.com/gofagara/";
   }
 
   return (

@@ -6,6 +6,7 @@ import Header from './components/Header';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 
 const sidebar = {
@@ -13,6 +14,7 @@ const sidebar = {
     { name: 'Twitter', icon: TwitterIcon },
     { name: 'Instagram', icon: InstagramIcon },
     { name: 'Facebook', icon: FacebookIcon },
+    { name: 'YouTube', icon: YouTubeIcon },
   ],
 };
 
