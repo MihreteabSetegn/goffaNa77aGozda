@@ -29,7 +29,7 @@ const SupportMethods = () => {
                     }}>
                         Donate Via GoFundMe Account set and administered by the association
                     </span>
-                    <Link href="https://www.gofundme.com/f/gara-members-monthly-contribution?utm_campaign=p_cf+share-flow-1&utm_medium=copy_link&utm_source=customer" target="_blank"
+                    <Link href="https://www.gofundme.com/f/httpsgofundmea5cb6240" target="_blank"
                     style={{color: "#FA8072", paddingLeft: "5px", fontSize: "30px", fontFamily: "fantasy"}}
                     >GoFundMe</Link>
                 </span>
