@@ -1,38 +1,133 @@
 .App {
   text-align: center;
+  background-color: darkslategrey;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slider {
+  position: relative;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px; 
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px; 
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.slideTwo {
+  opacity: 0;
+  transition:all 0.3s ease;
+}
+
+.slideTwo.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+.dataContianer {
+  font-family: helvetica, arial, sans-serif; 
+  margin-bottom: 25px;
+   position: relative;
+  width: 100%;
+  height: auto;
+  
+} 
+
+table.sticky-thc {
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  /* display: flex; */
+  width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+.sticky-thc td {
+    border-bottom: 1px solid #ddd;
+    /* margin: 0; */
   }
-}
+
+.sticky-thc th {
+      position: relative;
+      top: 0;
+  }
+
+  @media screen and (min-width: 300px) {
+    .dataContianer {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .dataContianer {
+      font-size: 7px;
+    }
+  }
+
+  .imagesSlider {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  @media screen and (min-width: 300px) {
+    .imagesSlider {
+      font-size: 16px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .imagesSlider {
+      font-size: 7px;
+    }
+  }
+
+
+  .contactApp {
+    text-align: center;
+    max-width: 300px;
+    margin: 20px auto;
+  }
+  .contactApp Form {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+  }
