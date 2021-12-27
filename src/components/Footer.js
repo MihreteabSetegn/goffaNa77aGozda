@@ -31,14 +31,15 @@ export default function Footer(props) {
 
   const handleUrl = (name) => {
     
-    if(name === "Facebook") return "https://www.facebook.com/gofa.gara"
-    else return "#"
+    if(name === "Facebook") return "https://www.facebook.com/gofa.gara";
+    if(name === "Twitter") return "http://twitter.com/gofagara";
+    else return "http://instagram.com/gofagara/"
   }
 
   return (
     <footer className={classes.footer} style={{marginTop: "10px"}}>
       {social.map((network) => (
-        <Link display="block" variant="body1" href={handleUrl(network.name)} key={network} style={{justifyContent: "space-between", alignContent: "center"}} target= {network.name ==="Facebook"? "_blank": ""}>
+        <Link display="block" variant="body1" href={handleUrl(network.name)} key={network} style={{justifyContent: "space-between", alignContent: "center"}} target="_blank">
           <Grid spacing={1} alignItems="center">
             <Grid item>
               <network.icon />
