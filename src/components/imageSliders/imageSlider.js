@@ -11,10 +11,8 @@ const ImageSlider = ({slides}) => {
     const nextSlide = () => setCurrent(current === length -1 ? 0: current + 1)
     const prevSlide = () => setCurrent(current === 0 ? length - 1: current - 1)
 
-
-    console.log("miru" + current)
     return (
-        <div className="imageSliderContainer" style={{justifyContent: "space-between", marginTop: "20px"}}>
+        <div style={{justifyContent: "space-between", marginTop: "20px"}}>
             <h1 style={{color: "white", fontFamily: "cursive"}}>Giving back to the community</h1>
             <section className="slider">
                 <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>

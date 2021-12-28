@@ -15,7 +15,6 @@ const ImageSliderTwo = ({slides}) => {
 
     return (
         <div >
-            <h1 style={{color: "white", fontFamily: "cursive", marginTop: "10px", paddingTop: "10px"}}>Discover more ...</h1>
             <section className="slider">
                 <FaArrowAltCircleLeft className="left-arrow" onClick={prevSlide}/>
                 <FaArrowAltCircleRight className="right-arrow" onClick={nextSlide}/>

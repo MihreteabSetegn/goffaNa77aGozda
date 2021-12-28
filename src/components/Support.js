@@ -15,7 +15,7 @@ import SupportMethods from './supportMethods';
       <div>
          <ImageSliderTwo slides = {SliderDataTwo}/>
       </div>
-      <div style={{marginBottom: "40px"}}>
+      <div style={{marginBottom: "40px"}} className="container border">
          <SupportMethods/>
       </div>
    </div>
