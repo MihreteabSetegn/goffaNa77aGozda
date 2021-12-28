@@ -4,14 +4,11 @@ import { Link} from "@material-ui/core";
 
 const SupportMethods = () => {
     return (
-        <div>
+        <div style={{paddingBottom: "20px", paddingTop: "25px"}}>
             <h2 style={{
                 color: "white",
                 fontFamily: "fantasy",
-                marginBottom: "10px",
-                marginTop: "10px",
-                marginLeft: "10px",
-                marginRight: "10px",
+              
                 }}>
                 Want to help us <span style={{fontSize: "30px"}}>help</span> those in need? 
                 please find below ways to give back to the community.

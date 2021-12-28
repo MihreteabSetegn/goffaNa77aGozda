@@ -14,6 +14,7 @@ import InfoIcon from "@material-ui/icons/Info"
 import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
 import AddLocationIcon from '@mui/icons-material/AddLocation';
 import ContactPageIcon from '@mui/icons-material/ContactPage';
+import HomeIcon from '@mui/icons-material/Home';
 
 
 import About from "./About";
@@ -34,6 +35,10 @@ const useStyles = makeStyles(() => ({
 }));
 
 const headersData = [
+  {
+    label: "Home",
+    href: "/",
+  },
   {
     label: "About",
     href: "/about",
@@ -77,6 +82,7 @@ export default function Header() {
                  {label=== "Support Us" && <Switch> <MonetizationOnIcon/> </Switch> }
                  {label=== "Discover Goffa/Invest" && <Switch> <AddLocationIcon/> </Switch>}
                  {label=== "Contact Us" && <Switch> <ContactPageIcon/> </Switch>}
+                 {label=== "Home" && <Switch> <HomeIcon/> </Switch>}
                 <ListItemText style={{justifyContent: "space-between"}}>
                   {label}
                 </ListItemText>

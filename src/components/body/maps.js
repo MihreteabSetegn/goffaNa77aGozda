@@ -37,11 +37,11 @@ export class MapCity extends Component {
                         marginBottom: "20px"
                     }
                 }>
-                <div style={{marginBottom: "40px", marginTop: "20px"}} className="container border">
+                <div style={{marginBottom: "40px", marginTop: "20px", marginTop: "40px"}} className="container border">
                     <SupportMethods/>
                 </div>
                 <h1 style={{alignContent: "center", paddingTop: "5px", paddingBottom: "5px", fontFamily: "cursive", color: "white"}}>Gofa Area Google Maps</h1>
-                <div className="container border" style={{marginBottom: "10px"}}>
+                <div className="container border" style={{marginBottom: "10px", margintop: "10px", paddingTop: "20px", paddingBottom: "20px"}}>
                     <LoadScript
                     googleMapsApiKey="AIzaSyArvhYeTccGn6Oh-x0mWVXe_2QDdm8fHGs"
                     >

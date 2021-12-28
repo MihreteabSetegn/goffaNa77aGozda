@@ -54,7 +54,7 @@ export default function Footer(props) {
           Greater Gofa Area Relief Association
         </Typography>
         <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          Let's give back to our community
+          Let's give back to our community!
           <div>Developer: Mihreteab Y Setegn</div>
         </Typography>
         <Copyright />

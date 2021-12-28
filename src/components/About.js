@@ -14,6 +14,8 @@ import {withRouter} from 'react-router';
        height: "auto",
        marginBottom: "20px", 
        marginTop: "15px", 
+       paddingTop: "20px",
+       paddingBottom: "20px"
       }
        } className="container border" >
       <h1 style={{fontFamily: "cursive"}}>About Us</h1>
