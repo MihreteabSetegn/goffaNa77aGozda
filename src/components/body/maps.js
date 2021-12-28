@@ -32,12 +32,11 @@ export class MapCity extends Component {
                     {
                         alignItems: "center", 
                         justifyContent: "center", 
-                        paddingBottom: "10px",
                         marginTop: "20px",
                         marginBottom: "20px"
                     }
                 }>
-                <div style={{marginBottom: "40px", marginTop: "20px", marginTop: "40px"}} className="container border">
+                <div style={{marginBottom: "40px", marginTop: "40px"}} className="container border">
                     <SupportMethods/>
                 </div>
                 <h1 style={{alignContent: "center", paddingTop: "5px", paddingBottom: "5px", fontFamily: "cursive", color: "white"}}>Gofa Area Google Maps</h1>
