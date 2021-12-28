@@ -3,6 +3,8 @@ import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
 
+
+//icons
 import TwitterIcon from '@material-ui/icons/Twitter';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import InstagramIcon from '@material-ui/icons/Instagram';

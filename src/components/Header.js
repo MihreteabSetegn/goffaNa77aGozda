@@ -28,7 +28,7 @@ import MapCity from "./body/maps";
 
 const useStyles = makeStyles(() => ({
  customDivStyle: {
-  backgroundColor: "#FA8072",
+  backgroundColor: "#ff6347",
   borderRadius: "50px",
   width: "100%"
 }
@@ -69,11 +69,9 @@ export default function Header() {
             component: RouterLink,
             to: href,
             color: "inherit",
-            style: { textDecoration: "none", padding: "0px 10px",
-            wordWrap: "normal"},
             key: label,
           }}
-          style={{display: "inline-block", textDecoration: 'none'}}
+          style={{display: "inline-block", textDecoration: 'none', padding: "0px 10px"}}
         >
           <List>
             <Link to= {href}  style={{color: "white", textDecoration: 'none'}}>

@@ -13,18 +13,12 @@ import {Link} from "@material-ui/core";
       <div>
         <ImageSlider slides= {SliderData}/>
       </div>
-      <div 
-        style={
-          {  
-            marginTop: "5px", 
-          }
-              } 
-        >
+      <div>
         <Data/>
       </div>
-      <div style={{marginBottom: "10px", marginTop: "10px"}}>
-            <Link href="https://en.wikipedia.org/wiki/Gamu-Gofa"  target="_blank" style={{color: "white", fontFamily: "cursive"}}>Visit Gamo Gofa Area Wiki Page to learn more...</Link>
-      </div>
+      <h2 style={{marginBottom: "20px", marginTop: "20px"}}>
+            <Link href="https://en.wikipedia.org/wiki/Gamu-Gofa"  target="_blank" style={{color: "blue", fontFamily: "cursive"}}>Visit Gamo Gofa Area Wiki Page to learn more...</Link>
+      </h2>
   </div>
   );
 }

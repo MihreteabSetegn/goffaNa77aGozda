@@ -27,7 +27,7 @@ const SupportMethods = () => {
                         Donate Via GoFundMe Account set and administered by the association
                     </span>
                     <Link href="https://www.gofundme.com/f/httpsgofundmea5cb6240" target="_blank"
-                    style={{color: "#FA8072", paddingLeft: "5px", fontSize: "30px", fontFamily: "fantasy"}}
+                    style={{color: "blue", paddingLeft: "5px", fontSize: "30px", fontFamily: "fantasy"}}
                     >GoFundMe</Link>
                 </span>
             </div>
@@ -42,10 +42,10 @@ const SupportMethods = () => {
                         paddingLeft: "5px",
                         fontFamily: "serif"
                     }}>
-                        Donate Via <span style={{color: "#FA8072", fontSize: "50px", fontFamily: "fantasy"}}> Zelle </span> Payment, Account set and administered by the association,
+                        Donate Via <span style={{color: "#ff6347", fontSize: "50px", fontFamily: "fantasy"}}> Zelle </span> Payment, Account set and administered by the association,
                     </span>
                     <button  onClick={false} target="_blank"
-                    style={{color: "#FA8072", paddingLeft: "5px", fontSize: "20px", fontFamily: "fantasy"}}
+                    style={{color: "#ff6347", paddingLeft: "5px", fontSize: "20px", fontFamily: "fantasy"}}
                     >gofagara@gmail.com and phone number: +1 (507)-476-5974 </button>
                 </span>
             </div>
@@ -59,7 +59,7 @@ const SupportMethods = () => {
                         paddingLeft: "5px",
                         fontFamily: "serif"
                     }}>
-                        Donate Via <span style={{color: "#FA8072", fontSize: "30px", fontFamily: "fantasy"}}> Check </span>, Account set and administered by the association.
+                        Donate Via <span style={{color: "#ff6347", fontSize: "30px", fontFamily: "fantasy"}}> Check </span>, Account set and administered by the association.
                     </span>
                     <p style={{color: "white"}}>Note: please write "Pay to "GARA" or "Greater Gofa 
                         Relief Association" ".
